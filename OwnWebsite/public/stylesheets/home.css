@@ -1,0 +1,89 @@
+body {
+  background-color: #FFEAE0;
+}
+
+/* Menu CSS */
+
+.snip1143 {
+    position: absolute;
+    top: 15px;
+    left: 160px;
+}
+
+#menu{
+  margin-top: 26px;
+  font-size: 14px;
+}
+
+.snip1143 {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  text-align: center;
+}
+.snip1143 * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1143 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  overflow: hidden;
+}
+.snip1143 a {
+  padding: 0.3em 0;
+  color: #383838;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+}
+.snip1143 a:before,
+.snip1143 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1143 a:before {
+  top: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #000000;
+}
+.snip1143 a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: #383838;
+  white-space: nowrap;
+}
+.snip1143 li:hover a,
+.snip1143 .current a {
+  transform: translateY(-100%);
+}
+
+/* Home Page: */
+#name {
+  margin-top: 300px;
+  margin-right: 885px;
+  color: #383838;
+  font-size: 24px;
+  font-style: italic;
+  font-family: 'Libre Baskerville';
+  text-align: right;
+}
+
+#punchline {
+  margin-top: -20px;
+  margin-right: 885px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 17px;
+  text-align: right;
+}
